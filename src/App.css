@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'Charriot Deluxe';
+  
+  src: url('./fonts/Charriot Deluxe.woff') format('woff'),
+      url('./fonts/Charriot Deluxe.woff2') format('woff2'),
+      url('./fonts/Charriot Deluxe.ttf') format('truetype'),
+       url("./fonts/Charriot Deluxe.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+
+}
+
+.charriot {
+  font-family: "Charriot Deluxe";
+}
+
+.z--1 {
+  z-index: -1;
+}
+
+.z-1 {
+  z-index: 1;
+}
+
+.stroke {
+  -webkit-text-stroke: 1px red;
+}
+
+.shadowred {
+  text-shadow: 5px 5px #ff0000;
+}
+
+.videocontainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* width: 100%;
+    height: 150%; */
+    min-width: 100%; 
+    min-height: 100%; 
+    z-index: -1;
+    object-fit: cover; /* combined with 'absolute', works like background-size, but for DOM elements */
+}
+.wordbreak {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.gen2 {
+  background-image: url("https://cloudflare-ipfs.com/ipfs/Qma1KVMD1yMN5boBMTwwFKmYvwCH1wnEnH1eFN8bC9A3so");
+}
+#lootbox {
+  background-image: url("https://cloudflare-ipfs.com/ipfs/Qmdm5pNbdt45q446P5P4puf8BpSsWSDmEJH3ehiTemBa4n");
+  background-size: "cover";
+}
+
+.vh-150 {
+  height: 150vh;
+}
+
+.vh-200 {
+  height: 200vh;
+}
